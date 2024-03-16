@@ -1,2 +1,2 @@
-# AluraBooks
-Livraria Online 
+# Alura Books
+ Livraria Online

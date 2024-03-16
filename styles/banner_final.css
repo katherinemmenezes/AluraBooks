@@ -1,0 +1,58 @@
+.banner__final{
+    background: var(--branco);
+    padding: 1em;
+    
+}
+.banner__final__titulo, .banner__final__texto{
+    background: var(--azul-degrade);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner__final__titulo{
+    font-size: 18px;
+    font-weight: 500;   
+}
+.banner__final__texto{
+    font-weight: 300;
+    margin: 1em 0;
+}
+.banner__final__email{
+    width: 90%;
+    border-radius: 24px;
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    padding: 1em;
+}
+.banner__final__email::placeholder{
+    color: var(--azul);
+    font-family: var(--fonte);
+    font-size: 14px;
+    font-weight: 400;
+    background-image: url(../imagens/Email.svg);
+    background-repeat: no-repeat;
+    padding-left: 2em; /*afasta svg para esquerda afastando do texto do placeholder*/
+    
+}
+@media  screen and (min-width: 1024px){
+    .banner__final{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner__final__titulo{
+        font-size: 24px;
+    }
+    .bannerr__final__descricao{
+        margin-right: 1em;
+        width: 30%;
+    }
+    .banner__final__email{
+        width: 30%;
+    }
+}
+@media  screen and (min-width: 1728px){
+    .banner__final{
+        padding: 3em 20vw;
+    }
+}
